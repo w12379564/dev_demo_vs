@@ -1,5 +1,9 @@
 # Visual Studio Remote Debug
 
+与vs code相比，vs使用ssh来attach到远程进程，因此需要安装ssh server以及开启相关服务。
+
+## 步骤：
+
 1. clone仓库到本地，打开vs解决方案。
 
 2. 执行命令`docker-compose up`。
